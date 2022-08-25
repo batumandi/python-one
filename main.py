@@ -1,8 +1,19 @@
-"""Semua sintaksis dasar pemrograman terdiri dari:
-1. Sekuensial: Langkah berurutan
-2. Percabangan: Langkah melompat jika kondisi terpenuhi
-3. Perulangan: Mengulang langkah yang sama berkali-kali selama/sampai kondisi terpenuhi
-"""
+# KONSTRUKSI DASAR PYTHON
+# SEQUENTIAL : Eksekusi berurutan
+print('Hello World')
+print('by Firdaus')
+print('Tanggal 25 Agustus 2022')
+print('-'*10)
 
-print("Hello")
-print("who are u")
+# PERCABANGAN: Eksekusi terpilih
+ingin_cepat = False
+if ingin_cepat:
+    print('jalan lurus aja ya!')
+else:
+    print('Jalan lain')
+
+# PERULANGAN
+jumlah_anak = 4
+
+for index_anak in range(1, jumlah_anak+1): #jumlah perulangan = 5-1 = 4
+    print(f'Halo anak#{index_anak}')
